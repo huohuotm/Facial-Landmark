@@ -7,6 +7,12 @@ The main goal of this project is to train an neural network to detect facial lan
 1. VGGFace: get a good model, but the size is too big(200MB+).
 2. MobileNet: try compress the model, the final model is 3M(67 times smaller), MSE is 1.795(improve 43%), mean absolute error is 0.964.
 
+## Result
+
+I made a video draw facial landmark(88 points) on every frame. See `test_result.mp4` or [link](https://pan.baidu.com/s/1P2NDFNxuTOZ4YU1USRLcBQ) .![example](readme_img/example.png),
+
+
+
 
 ## Dataset
 Model input: 160\*160\*3 image

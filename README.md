@@ -69,6 +69,6 @@ https://arxiv.org/abs/1704.04861v1
 The input of our MobileNet model is still 160\*160\*3, the output of all conv layers is  5\*5\*1024, followed by an AvgPooling layer.  And the last layers is a full connect layer with 176 units. (α：0.3；ρ：default 1；shallow)
 
 ## Time Cost
-Detect face using mtcnn:  69.2ms
-Predict 88 points:  25.2ms
+Detect face using mtcnn:  69.2ms   
+Predict 88 points:  25.2ms    
 Total : 97.4ms (test on MacBookPro（Itel i5 cpu）)

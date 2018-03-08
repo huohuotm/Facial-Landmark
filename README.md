@@ -15,25 +15,25 @@ I made a video draw facial landmark(88 points) on every frame. See `test_result.
 
 
 ## Dataset
-Model input: 160\*160\*3 image
-Train：39998 images
-Val：2000 images
-Test：1999 images
+Model input: 160\*160\*3 image  
+Train：39998 images  
+Val：2000 images  
+Test：1999 images   
 
-Through `Error Analysis ` , remove images with invalid points.
+Through `Error Analysis ` , remove images with invalid points.   
 
-Train：delete 197 images -> 39801
-Val：delete 37 images -> 1935
-Test:：1999
+Train：delete 197 images -> 39801   
+Val：delete 37 images -> 1935  
+Test:：1999  
 
-**Distribution of 88 points**
-face_profile：21points
-left_eye：8 points;
-right_eye：8 points
-left_eyebrow：8 points
-right_eyebrow：8 points
-mouth： 22 points
-nose：13 points
+**Distribution of 88 points ** 
+face_profile：21points  
+left_eye：8 points;  
+right_eye：8 points  
+left_eyebrow：8 points  
+right_eyebrow：8 points  
+mouth： 22 points  
+nose：13 points  
 
 ### Data Preprocess
 
